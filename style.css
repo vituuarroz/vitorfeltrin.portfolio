@@ -1,0 +1,135 @@
+/* #region global styles */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* #endregion */
+
+/* #region header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 70px;
+	background-color: rgb(60, 60, 60);
+}
+
+header img {
+	max-height: 60px;
+	margin-left: 20px;
+	border-radius: 50%;
+}
+
+.navHeader {
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+.navHeader a {
+	padding: 5px;
+	color: rgb(170, 170, 170);
+	font-size: 20px;
+	text-decoration: none;
+	transition: 200ms ease-in-out;
+}
+
+.navHeader a:hover {
+	transform: translateY(-5px);
+	color: white;
+}
+
+header .navContact {
+	margin-right: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: yellow;
+	box-shadow: 0 0 3px yellow;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	transition: 200ms;
+}
+
+header .navContact:hover {
+	box-shadow: 0 0 10px yellow;
+}
+
+/* #endregion */
+
+/* #region presentation */
+.presentation {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 900px;
+	background-color: rgb(40, 40, 50);
+}
+
+.presText {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	width: 50%;
+	color: grey;
+}
+
+.presText h1 {
+	margin-bottom: 20px;
+	font-size: 48px;
+}
+
+.presText p {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.presentation img {
+	width: auto;
+	max-height: 500px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px yellow;
+}
+
+.presText a {
+	width: fit-content;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: yellow;
+	box-shadow: 0 0 3px yellow;
+	color: black;
+	text-decoration: none;
+	transition: 200ms;
+}
+
+.presText a:hover {
+	box-shadow: 0 0 10px yellow;
+}
+
+/* #endregion */
+
+.espec {
+	background-color: rgb(40, 40, 50);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 700px;
+}
+
+.especContainer {
+	display: flex;
+}
+
+.espec h1 {
+	font-size: 48px;
+	padding: 20px;
+}
+
+.especItem1 img {
+	height: 100px;
+}
