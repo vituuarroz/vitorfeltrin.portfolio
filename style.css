@@ -2,246 +2,246 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .bordinha {
-  background: linear-gradient(90deg, rgb(40, 40, 50), yellow, rgb(40, 40, 50));
-  width: 100%;
-  height: 2px;
+	background: linear-gradient(90deg, rgb(40, 40, 50), yellow, rgb(40, 40, 50));
+	width: 100%;
+	height: 2px;
 }
 
 /* #endregion */
 
 /* #region header */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(60, 60, 60);
-  width: 100%;
-  min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(60, 60, 60);
+	width: 100%;
+	min-height: 70px;
 }
 
 header img {
-  margin-left: 20px;
-  border-radius: 50%;
-  max-height: 60px;
+	margin-left: 20px;
+	border-radius: 50%;
+	max-height: 60px;
 }
 
 .navHeader {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
 }
 
 .navHeader a {
-  transition: 200ms ease-in-out;
-  padding: 5px;
-  color: rgb(170, 170, 170);
-  font-size: 20px;
-  text-decoration: none;
+	transition: 200ms ease-in-out;
+	padding: 5px;
+	color: rgb(170, 170, 170);
+	font-size: 20px;
+	text-decoration: none;
 }
 
 .navHeader a:hover {
-  transform: translateY(-5px);
-  color: white;
+	transform: translateY(-5px);
+	color: white;
 }
 
 header .navContact {
-  transition: 200ms;
-  margin-right: 20px;
-  box-shadow: 0 0 3px yellow;
-  border-radius: 5px;
-  background-color: yellow;
-  padding: 5px;
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
+	transition: 200ms;
+	margin-right: 20px;
+	box-shadow: 0 0 3px yellow;
+	border-radius: 5px;
+	background-color: yellow;
+	padding: 5px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 header .navContact:hover {
-  box-shadow: 0 0 10px yellow;
+	box-shadow: 0 0 10px yellow;
 }
 
 /* #endregion */
 
 /* #region presentation */
 .presentation {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(40, 40, 50);
-  height: 700px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(40, 40, 50);
+	height: 700px;
 }
 
 .presText {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  box-shadow: 0 0 5px yellow;
-  border-radius: 10px;
-  background-color: rgb(100, 100, 100);
-  width: 50%;
-  color: white;
-  padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	box-shadow: 0 0 5px yellow;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	width: 50%;
+	color: white;
+	padding: 20px;
 }
 
 .presText h1 {
-  margin-bottom: 20px;
-  font-size: 48px;
+	margin-bottom: 20px;
+	font-size: 48px;
 }
 
 .presText p {
-  margin-bottom: 20px;
-  font-size: 24px;
+	margin-bottom: 20px;
+	font-size: 24px;
 }
 
 .presentation img {
-  box-shadow: 0 0 10px yellow;
-  border-radius: 50%;
-  width: auto;
-  max-height: 500px;
+	box-shadow: 0 0 10px yellow;
+	border-radius: 50%;
+	width: auto;
+	max-height: 500px;
 }
 
 .presText a {
-  transition: 200ms;
-  box-shadow: 0 0 3px yellow;
-  border-radius: 5px;
-  background-color: yellow;
-  padding: 10px;
-  width: fit-content;
-  color: black;
-  text-decoration: none;
+	transition: 200ms;
+	box-shadow: 0 0 3px yellow;
+	border-radius: 5px;
+	background-color: yellow;
+	padding: 10px;
+	width: fit-content;
+	color: black;
+	text-decoration: none;
 }
 
 .presText a:hover {
-  box-shadow: 0 0 10px yellow;
+	box-shadow: 0 0 10px yellow;
 }
 
 /* #endregion */
 
 /* #region habilities */
 .habs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(40, 40, 50);
-  width: 100%;
-  height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(40, 40, 50);
+	width: 100%;
+	height: 800px;
 }
 
 .habsContainer {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  width: 90%;
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+	width: 80%;
 }
 
 .habs h1 {
-  margin: 20px;
-  padding: 20px;
-  color: white;
-  font-size: 48px;
+	margin: 20px;
+	padding: 20px;
+	color: white;
+	font-size: 48px;
 }
 
 .habsItem1 {
-  display: inherit;
-  flex-direction: column;
-  align-items: center;
-  transition: 100ms;
-  box-shadow: 0 0 5px yellow;
-  border-radius: 10px;
-  background-color: rgb(100, 100, 100);
-  padding: 10px;
-  width: 250px;
-  height: 300px;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	transition: 100ms;
+	box-shadow: 0 0 5px yellow;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	padding: 10px;
+	width: 250px;
+	height: 300px;
 }
 
 .habsItem1:hover {
-  transform: scale(1.01);
+	transform: scale(1.01);
 }
 
 .habsItem1 img {
-  margin: 20px;
-  width: fit-content;
-  height: 100px;
+	margin: 20px;
+	width: fit-content;
+	height: 100px;
 }
 
 .habsItem2 {
-  display: inherit;
-  flex-direction: column;
-  align-items: center;
-  transition: 200ms;
-  box-shadow: 0 0 5px yellow;
-  border-radius: 10px;
-  background-color: rgb(100, 100, 100);
-  padding: 10px;
-  width: 250px;
-  height: 300px;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	transition: 200ms;
+	box-shadow: 0 0 5px yellow;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	padding: 10px;
+	width: 250px;
+	height: 300px;
 }
 
 .habsItem2:hover {
-  transform: scale(1.01);
+	transform: scale(1.01);
 }
 
 .habsItem2 img {
-  margin: 20px;
-  height: 100px;
+	margin: 20px;
+	height: 100px;
 }
 
 .habsItem3 {
-  display: inherit;
-  flex-direction: column;
-  align-items: center;
-  transition: 200ms;
-  box-shadow: 0 0 5px yellow;
-  border-radius: 10px;
-  background-color: rgb(100, 100, 100);
-  padding: 10px;
-  width: 250px;
-  height: 300px;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	transition: 200ms;
+	box-shadow: 0 0 5px yellow;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	padding: 10px;
+	width: 250px;
+	height: 300px;
 }
 
 .habsItem3:hover {
-  transform: scale(1.01);
+	transform: scale(1.01);
 }
 
 .habsItem3 img {
-  margin: 20px;
-  height: 100px;
+	margin: 20px;
+	height: 100px;
 }
 
 /* #endregion */
 
 .sobre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(40, 40, 50);
-  padding: 20px;
-  height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(40, 40, 50);
+	padding: 20px;
+	height: 800px;
 }
 
 .sobreText {
-  box-shadow: 0 0 5px yellow;
-  border-radius: 10px;
-  background-color: rgb(100, 100, 100);
-  padding: 20px;
+	box-shadow: 0 0 5px yellow;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	padding: 20px;
 }
 
 .sobre h1 {
-  padding: 20px;
-  color: white;
-  font-size: 48px;
-  text-align: center;
+	padding: 20px;
+	color: white;
+	font-size: 48px;
+	text-align: center;
 }
 
 .sobre p {
-  color: white;
-  font-size: 24px;
+	color: white;
+	font-size: 24px;
 }
