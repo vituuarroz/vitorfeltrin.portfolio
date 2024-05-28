@@ -8,9 +8,13 @@
 }
 
 .bordinha {
-	background: linear-gradient(90deg, rgb(40, 40, 50), yellow, rgb(40, 40, 50));
 	width: 100%;
 	height: 2px;
+	background: linear-gradient(90deg, rgb(40, 40, 50), yellow, rgb(40, 40, 50));
+}
+
+h1 span {
+	color: yellow;
 }
 
 /* #endregion */
@@ -18,17 +22,17 @@
 /* #region header */
 header {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(60, 60, 60);
+	justify-content: space-between;
 	width: 100%;
 	min-height: 70px;
+	background-color: rgb(60, 60, 60);
 }
 
 header img {
+	max-height: 60px;
 	margin-left: 20px;
 	border-radius: 50%;
-	max-height: 60px;
 }
 
 .navHeader {
@@ -38,11 +42,11 @@ header img {
 }
 
 .navHeader a {
-	transition: 200ms ease-in-out;
 	padding: 5px;
 	color: rgb(170, 170, 170);
 	font-size: 20px;
 	text-decoration: none;
+	transition: 200ms ease-in-out;
 }
 
 .navHeader a:hover {
@@ -51,15 +55,15 @@ header img {
 }
 
 header .navContact {
-	transition: 200ms;
 	margin-right: 20px;
-	box-shadow: 0 0 3px yellow;
+	padding: 5px;
 	border-radius: 5px;
 	background-color: yellow;
-	padding: 5px;
+	box-shadow: 0 0 3px yellow;
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
+	transition: 200ms;
 }
 
 header .navContact:hover {
@@ -71,23 +75,23 @@ header .navContact:hover {
 /* #region presentation */
 .presentation {
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
+	height: 900px;
 	background-color: rgb(40, 40, 50);
-	height: 700px;
 }
 
 .presText {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: left;
-	box-shadow: 0 0 5px yellow;
+	justify-content: center;
+	width: 50%;
+	padding: 20px;
 	border-radius: 10px;
 	background-color: rgb(100, 100, 100);
-	width: 50%;
+	box-shadow: 0 0 5px yellow;
 	color: white;
-	padding: 20px;
 }
 
 .presText h1 {
@@ -101,21 +105,21 @@ header .navContact:hover {
 }
 
 .presentation img {
-	box-shadow: 0 0 10px yellow;
-	border-radius: 50%;
 	width: auto;
 	max-height: 500px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px yellow;
 }
 
 .presText a {
-	transition: 200ms;
-	box-shadow: 0 0 3px yellow;
+	width: fit-content;
+	padding: 10px;
 	border-radius: 5px;
 	background-color: yellow;
-	padding: 10px;
-	width: fit-content;
+	box-shadow: 0 0 3px yellow;
 	color: black;
 	text-decoration: none;
+	transition: 200ms;
 }
 
 .presText a:hover {
@@ -128,18 +132,18 @@ header .navContact:hover {
 .habs {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	background-color: rgb(40, 40, 50);
+	justify-content: center;
 	width: 100%;
 	height: 800px;
+	background-color: rgb(40, 40, 50);
 }
 
 .habsContainer {
 	display: flex;
 	justify-content: space-around;
-	gap: 20px;
 	width: 80%;
+	gap: 20px;
 }
 
 .habs h1 {
@@ -153,13 +157,13 @@ header .navContact:hover {
 	display: inherit;
 	flex-direction: column;
 	align-items: center;
-	transition: 100ms;
-	box-shadow: 0 0 5px yellow;
-	border-radius: 10px;
-	background-color: rgb(100, 100, 100);
-	padding: 10px;
 	width: 250px;
 	height: 300px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	box-shadow: 0 0 5px yellow;
+	transition: 100ms;
 }
 
 .habsItem1:hover {
@@ -167,22 +171,22 @@ header .navContact:hover {
 }
 
 .habsItem1 img {
-	margin: 20px;
 	width: fit-content;
 	height: 100px;
+	margin: 20px;
 }
 
 .habsItem2 {
 	display: inherit;
 	flex-direction: column;
 	align-items: center;
-	transition: 200ms;
-	box-shadow: 0 0 5px yellow;
-	border-radius: 10px;
-	background-color: rgb(100, 100, 100);
-	padding: 10px;
 	width: 250px;
 	height: 300px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	box-shadow: 0 0 5px yellow;
+	transition: 200ms;
 }
 
 .habsItem2:hover {
@@ -190,21 +194,21 @@ header .navContact:hover {
 }
 
 .habsItem2 img {
-	margin: 20px;
 	height: 100px;
+	margin: 20px;
 }
 
 .habsItem3 {
 	display: inherit;
 	flex-direction: column;
 	align-items: center;
-	transition: 200ms;
-	box-shadow: 0 0 5px yellow;
-	border-radius: 10px;
-	background-color: rgb(100, 100, 100);
-	padding: 10px;
 	width: 250px;
 	height: 300px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(100, 100, 100);
+	box-shadow: 0 0 5px yellow;
+	transition: 200ms;
 }
 
 .habsItem3:hover {
@@ -212,26 +216,29 @@ header .navContact:hover {
 }
 
 .habsItem3 img {
-	margin: 20px;
 	height: 100px;
+	margin: 20px;
 }
 
 /* #endregion */
 
+/* #region about */
+
 .sobre {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	background-color: rgb(40, 40, 50);
-	padding: 20px;
+	justify-content: center;
 	height: 800px;
+	padding: 20px;
+	background-color: rgb(40, 40, 50);
 }
 
 .sobreText {
-	box-shadow: 0 0 5px yellow;
+	width: 80%;
+	padding: 20px;
 	border-radius: 10px;
 	background-color: rgb(100, 100, 100);
-	padding: 20px;
+	box-shadow: 0 0 5px yellow;
 }
 
 .sobre h1 {
@@ -245,3 +252,151 @@ header .navContact:hover {
 	color: white;
 	font-size: 24px;
 }
+
+/* #endregion */
+
+/* #region projects */
+.projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 800px;
+	background-color: rgb(40, 40, 50);
+	color: white;
+}
+
+.projects h1 {
+	margin: 20px;
+	font-size: 48px;
+}
+
+.projContainer {
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	gap: 20px;
+}
+
+.proj1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: 400px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: rgb(100, 100, 100);
+}
+
+.proj1 h1 {
+	color: black;
+	font-size: 28px;
+}
+
+.proj1 a {
+	width: 50%;
+	padding: 15px;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	transition: 200ms;
+}
+
+.proj1 a:hover {
+	width: 60%;
+	background-color: hsl(50, 50%, 30%);
+	color: white;
+}
+
+.proj1 img {
+	width: auto;
+	height: 200px;
+	margin-bottom: 15px;
+}
+
+.proj2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: 400px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: rgb(100, 100, 100);
+}
+
+.proj2 h1 {
+	color: black;
+	font-size: 28px;
+}
+
+.proj2 a {
+	width: 50%;
+	padding: 15px;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	transition: 200ms;
+}
+
+.proj2 a:hover {
+	width: 60%;
+	background-color: hsl(50, 50%, 30%);
+	color: white;
+}
+
+.proj2 img {
+	width: auto;
+	height: 200px;
+	margin-bottom: 15px;
+}
+
+.proj3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: 400px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: rgb(100, 100, 100);
+}
+
+.proj3 h1 {
+	color: black;
+	font-size: 28px;
+}
+
+.proj3 a {
+	width: 50%;
+	padding: 15px;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	transition: 200ms;
+}
+
+.proj3 a:hover {
+	width: 60%;
+	background-color: hsl(50, 50%, 30%);
+	color: white;
+}
+
+.proj3 img {
+	width: auto;
+	height: 200px;
+	margin-bottom: 15px;
+}
+
+/* #endregion */
