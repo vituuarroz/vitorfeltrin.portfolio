@@ -16,13 +16,13 @@
 				src="./img/nerd-emoji.webp"
 				alt="profile logo" />
 			<div class="navHeader">
-				<a href="#">Início</a>
-				<a href="#">Habilidades</a>
-				<a href="#">Sobre</a>
-				<a href="#">Projetos</a>
+				<a href="#inicio">Início</a>
+				<a href="#abilities">Habilidades</a>
+				<a href="#about">Sobre</a>
+				<a href="#projects">Projetos</a>
 			</div>
 			<a
-				href=""
+				href="#contact"
 				class="navContact"
 				>Contato</a
 			>
@@ -39,7 +39,7 @@
 					beatae tempora ipsa eligendi nostrum harum! Suscipit odio vero itaque rerum
 					illo.
 				</p>
-				<a href="">Entre em contato</a>
+				<a href="#contact">Entre em contato</a>
 			</div>
 			<img
 				src="./img/nerd-emoji.webp"
@@ -47,7 +47,7 @@
 				class="presPfp" />
 		</section>
 		<div class="bordinha"></div>
-		<section class="habs">
+		<section class="habs" id="abilities">
 			<h1>Minhas <span>Habilidades</span></h1>
 			<div class="habsContainer">
 				<div class="habsItem1">
@@ -55,29 +55,23 @@
 						src="./img/htmlIcon.png"
 						alt="primeira imagem" />
 					<p>HTML</p>
-					<br />
-					<p>placeholder</p>
 				</div>
 				<div class="habsItem2">
 					<img
 						src="./img/cssIcon.png"
 						alt="segunda imagem" />
 					<p>CSS</p>
-					<br />
-					<p>placeholder</p>
 				</div>
 				<div class="habsItem3">
 					<img
 						src="./img/jsIcon.png"
 						alt="terceira imagem" />
 					<p>Em Breve</p>
-					<br />
-					<p>placeholder</p>
 				</div>
 			</div>
 		</section>
 		<div class="bordinha"></div>
-		<section class="sobre">
+		<section class="sobre" id="about">
 			<div class="sobreText">
 				<h1>Sobre <span>mim</span></h1>
 				<p>
@@ -89,48 +83,59 @@
 			</div>
 		</section>
 		<div class="bordinha"></div>
-		<section class="projects">
+		<section class="projects" id="projects">
 			<h1>Meus <span>Projetos</span></h1>
 			<div class="projContainer">
 				<div class="proj1">
 					<img
 						src="./img/comingSoon.png"
 						alt="project 1" />
-					<h1>Place Holder</h1>
+					<h1>Em Breve</h1>
 					<a href="#">Saiba Mais</a>
 				</div>
 				<div class="proj2">
 					<img
 						src="./img/comingSoon.png"
 						alt="project 2" />
-					<h1>Place Holder</h1>
+					<h1>Em Breve</h1>
 					<a href="#">saiba mais</a>
 				</div>
 				<div class="proj3">
 					<img
 						src="./img/comingSoon.png"
 						alt="project 3" />
-					<h1>Place Holder</h1>
+					<h1>Em Breve</h1>
 					<a href="#">saiba mais</a>
 				</div>
 			</div>
 		</section>
 		<div class="bordinha"></div>
-		<section class="contacts">
+		<section class="contacts" id="contact">
 			<h1>Contatos</h1>
 			<div class="contactContainer">	
-				<a href="#" class="github">
-					<img src="./img/githubIcon.png" alt="git hub icon">
-					<span>git</span>
-				</a>
-				<a href="#" class="whatsapp">
-					<img src="./img/wappIcon.png" alt="whatsapp icon">
-					<span>zap</span>
-				</a>
-				<a href="#" class="gmail">
-					<img src="./img/gmailIcon.png" alt="gmail icon">
-					<span>gmail</span>
-				</a>
+				<div class="contactIcon">
+					<a href="https://github.com/vituuarroz" class="github">
+						<img src="./img/githubIcon.png" alt="git hub icon">
+						<span>Visite o Perfil</span>
+					</a>
+					<a href="https://wa.me/+5547988906205" class="whatsapp">
+						<img src="./img/wappIcon.png" alt="whatsapp icon">
+						<span>Entre em contato via WhatsApp</span>
+					</a>
+				</div>
+				<div class="contactForm">
+					<form action="https://api.staticforms.xyz/submit" method="post">
+						<input type="hidden" name="accessKey" value="790f1da6-1ee6-4b69-9766-3716df38ccb1">
+						<label>Nome</label>
+						<input type="text" name="name" id="" placeholder="Digite seu nome">
+						<label>E-mail</label>
+						<input type="text" name="email" id="" placeholder="Digite seu E-mail">
+						<label>Mensagem</label>
+						<textarea name="msg" id="" placeholder="Digite sua Mensagem"></textarea>
+						<button type="submit">Enviar</button>
+						<input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+					</form>
+				</div>
 			</div>
 		</section>
 	</body>
