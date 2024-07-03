@@ -2,191 +2,191 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bordinha {
-	background: linear-gradient(90deg, rgb(40, 40, 50), yellow, rgb(40, 40, 50));
-	width: 100%;
-	height: 2px;
+  background: linear-gradient(90deg, rgb(40, 40, 50), yellow, rgb(40, 40, 50));
+  width: 100%;
+  height: 2px;
 }
 
 h1 span {
-	color: yellow;
+  color: yellow;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 /* #endregion */
 
 /* #region header */
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: rgb(60, 60, 60);
-	width: 100%;
-	min-height: 70px;
-	padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(60, 60, 60);
+  width: 100%;
+  min-height: 70px;
+  padding-right: 15px;
 }
 
 header img {
-	margin-left: 20px;
-	border-radius: 50%;
-	max-height: 60px;
+  margin-left: 20px;
+  border-radius: 50%;
+  max-height: 60px;
 }
 
 .navHeader {
-	display: flex;
-	justify-content: space-between;
-	width: 30%;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
 
 .navHeader a {
-	transition: 200ms ease-in-out;
-	padding: 5px;
-	color: rgb(170, 170, 170);
-	font-size: 20px;
-	text-decoration: none;
+  transition: 200ms ease-in-out;
+  padding: 5px;
+  color: rgb(170, 170, 170);
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .navHeader a:hover {
-	transform: translateY(-5px);
-	color: white;
+  transform: translateY(-5px);
+  color: white;
 }
 
 header .navContact {
-	transition: 200ms;
-	margin-right: 20px;
-	box-shadow: 0 0 3px yellow;
-	border-radius: 5px;
-	background-color: yellow;
-	padding: 5px;
-	color: black;
-	font-size: 20px;
-	text-decoration: none;
+  transition: 200ms;
+  margin-right: 20px;
+  box-shadow: 0 0 3px yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 header .navContact:hover {
-	box-shadow: 0 0 10px yellow;
+  box-shadow: 0 0 10px yellow;
 }
 
 /* #endregion */
 
 /* #region presentation */
 .presentation {
-	display: flex;
-	gap: 50px;
-	justify-content: space-around;
-	align-items: center;
-	background-color: rgb(40, 40, 50);
-	height: 900px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(40, 40, 50);
+  height: 900px;
 }
 
 .presText {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: left;
-	box-shadow: 0 0 5px yellow;
-	border-radius: 10px;
-	background-color: rgb(100, 100, 100);
-	padding: 20px;
-	width: 50%;
-	color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  box-shadow: 0 0 5px yellow;
+  border-radius: 10px;
+  background-color: rgb(100, 100, 100);
+  padding: 20px;
+  width: 50%;
+  color: white;
 }
 
 .presText h1 {
-	margin-bottom: 20px;
-	font-size: 48px;
+  margin-bottom: 20px;
+  font-size: 48px;
 }
 
 .presText p {
-	margin-bottom: 20px;
-	font-size: 24px;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .presentation img {
-	box-shadow: 0 0 10px yellow;
-	border-radius: 50%;
-	max-height: 500px;
-	max-width: 500px;
-	width: 100%;
-	height: auto;
+  box-shadow: 0 0 10px yellow;
+  border-radius: 50%;
+  max-height: 500px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }
 
 .presText a {
-	transition: 200ms;
-	box-shadow: 0 0 3px yellow;
-	border-radius: 5px;
-	background-color: yellow;
-	padding: 10px;
-	width: fit-content;
-	color: black;
-	text-decoration: none;
+  transition: 200ms;
+  box-shadow: 0 0 3px yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 10px;
+  width: fit-content;
+  color: black;
+  text-decoration: none;
 }
 
 .presText a:hover {
-	box-shadow: 0 0 10px yellow;
+  box-shadow: 0 0 10px yellow;
 }
 
 /* #endregion */
 
 /* #region habilities */
 .habs {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: rgb(40, 40, 50);
-	width: 100%;
-	height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 40, 50);
+  width: 100%;
+  height: 800px;
 }
 
 .habsContainer {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 250px);
-	justify-content: space-around;
-	gap: 20px;
-	width: 80%;
-	margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: space-around;
+  gap: 20px;
+  width: 80%;
+  margin: 20px;
 }
 
 .habs h1 {
-	margin: 20px;
-	padding: 20px;
-	color: white;
-	text-align: center;
-	font-size: 48px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 48px;
 }
 
 .habsItem {
-	display: inherit;
-	flex-direction: column;
-	align-items: center;
-	transition: 100ms;
-	box-shadow: 0 0 5px yellow;
-	border-radius: 10px;
-	background-color: rgb(100, 100, 100);
-	padding: 50px;
-	width: 250px;
-	height: 300px;
-	color: yellow;
-	font-weight: 600;
-	font-size: 24px;
-	text-align: center;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  transition: 100ms;
+  box-shadow: 0 0 5px yellow;
+  border-radius: 10px;
+  background-color: rgb(100, 100, 100);
+  padding: 50px;
+  width: 250px;
+  height: 300px;
+  color: yellow;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
 }
 
 .habsItem:hover {
-	transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .habsItem img {
-	margin: 20px;
-	height: 100px;
+  margin: 20px;
+  height: 100px;
 }
 
 /* #endregion */
@@ -194,423 +194,437 @@ header .navContact:hover {
 /* #region about */
 
 .sobre {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: rgb(40, 40, 50);
-	padding: 20px;
-	height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 40, 50);
+  padding: 20px;
+  height: 800px;
 }
 
 .sobreText {
-	box-shadow: 0 0 5px yellow;
-	border-radius: 10px;
-	background-color: rgb(100, 100, 100);
-	padding: 20px;
-	width: 80%;
+  box-shadow: 0 0 5px yellow;
+  border-radius: 10px;
+  background-color: rgb(100, 100, 100);
+  padding: 20px;
+  width: 80%;
 }
 
 .sobre h1 {
-	padding: 20px;
-	color: white;
-	font-size: 48px;
-	text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 48px;
+  text-align: center;
 }
 
 .sobre p {
-	color: white;
-	font-size: 24px;
+  color: white;
+  font-size: 24px;
 }
 
 /* #endregion */
 
 /* #region projects */
 .projects {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: rgb(40, 40, 50);
-	width: 100%;
-	height: fit-content;
-	color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 40, 50);
+  width: 100%;
+  height: fit-content;
+  color: white;
 }
 
 .projects h1 {
-	margin: 20px;
-	font-size: 48px;
+  margin: 20px;
+  font-size: 48px;
 }
 
 .projContainer {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 250px);
-	justify-content: space-around;
-	gap: 20px;
-	width: 100%;
-	margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .proj1 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border-radius: 5px;
-	background-color: rgb(100, 100, 100);
-	padding: 15px;
-	width: 300px;
-	height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 100);
+  padding: 15px;
+  width: 300px;
+  height: 400px;
 }
 
 .proj1 h1 {
-	color: black;
-	font-size: 28px;
+  color: black;
+  font-size: 28px;
 }
 
 .proj1 a {
-	transition: 200ms;
-	border: 1px solid yellow;
-	border-radius: 5px;
-	background-color: yellow;
-	padding: 15px;
-	width: 50%;
-	color: black;
-	text-align: center;
-	text-decoration: none;
+  transition: 200ms;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 15px;
+  width: 50%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 .proj1 a:hover {
-	background-color: hsl(50, 50%, 30%);
-	width: 60%;
-	color: white;
+  background-color: hsl(50, 50%, 30%);
+  width: 60%;
+  color: white;
 }
 
 .proj1 img {
-	margin-bottom: 15px;
-	width: auto;
-	height: 200px;
+  margin-bottom: 15px;
+  width: auto;
+  height: 200px;
 }
 
 .proj2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border-radius: 5px;
-	background-color: rgb(100, 100, 100);
-	padding: 15px;
-	width: 300px;
-	height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 100);
+  padding: 15px;
+  width: 300px;
+  height: 400px;
 }
 
 .proj2 h1 {
-	color: black;
-	font-size: 28px;
+  color: black;
+  font-size: 28px;
 }
 
 .proj2 a {
-	transition: 200ms;
-	border: 1px solid yellow;
-	border-radius: 5px;
-	background-color: yellow;
-	padding: 15px;
-	width: 50%;
-	color: black;
-	text-align: center;
-	text-decoration: none;
+  transition: 200ms;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 15px;
+  width: 50%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 .proj2 a:hover {
-	background-color: hsl(50, 50%, 30%);
-	width: 60%;
-	color: white;
+  background-color: hsl(50, 50%, 30%);
+  width: 60%;
+  color: white;
 }
 
 .proj2 img {
-	margin-bottom: 15px;
-	width: auto;
-	height: 200px;
+  margin-bottom: 15px;
+  width: auto;
+  height: 200px;
 }
 
 .proj3 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border-radius: 5px;
-	background-color: rgb(100, 100, 100);
-	padding: 15px;
-	width: 300px;
-	height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 100);
+  padding: 15px;
+  width: 300px;
+  height: 400px;
 }
 
 .proj3 h1 {
-	color: black;
-	font-size: 28px;
+  color: black;
+  font-size: 28px;
 }
 
 .proj3 a {
-	transition: 200ms;
-	border: 1px solid yellow;
-	border-radius: 5px;
-	background-color: yellow;
-	padding: 15px;
-	width: 50%;
-	color: black;
-	text-align: center;
-	text-decoration: none;
+  transition: 200ms;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 15px;
+  width: 50%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 .proj3 a:hover {
-	background-color: hsl(50, 50%, 30%);
-	width: 60%;
-	color: white;
+  background-color: hsl(50, 50%, 30%);
+  width: 60%;
+  color: white;
 }
 
 .proj3 img {
-	margin-bottom: 15px;
-	width: auto;
-	height: 200px;
+  margin-bottom: 15px;
+  width: auto;
+  height: 200px;
 }
 
 /* #endregion */
 
 /* #region Contacts */
 .contacts {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	background-color: rgb(40, 40, 50);
-	height: 600px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(40, 40, 50);
+  height: 600px;
+  text-align: center;
 }
 
 .contacts h1 {
-	color: white;
-	font-size: 48px;
+  color: white;
+  font-size: 48px;
 }
 
 .contactContainer {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	background-color: rgb(100, 100, 100);
-	width: 100%;
-	height: 80%;
-	padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 100, 100);
+  width: 100%;
+  height: 80%;
+  padding: 10px;
+  gap: 20px;
 }
 
 .contactIcon {
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .github img {
-	width: 80px;
-	height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 .github {
-	display: flex;
-	align-items: center;
-	gap: 20px;
-	text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
 }
 
 .github span {
-	color: white;
-	font-size: 22px;
+  color: white;
+  font-size: 22px;
 }
 
 .whatsapp img {
-	max-width: 80px;
-	max-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
 }
 
 .whatsapp {
-	display: flex;
-	align-items: center;
-	text-align: left;
-	gap: 20px;
-	text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  text-decoration: none;
 }
 
 .whatsapp span {
-	color: white;
-	font-size: 22px;
+  color: white;
+  font-size: 22px;
 }
 
 .contactForm {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 5px yellow;
-	border: 1px solid yellow;
-	border-radius: 10px;
-	background-color: rgb(60, 60, 60);
-	width: 400px;
-	height: 400px;
-	color: white;
-	font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px yellow;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  background-color: rgb(60, 60, 60);
+  width: 400px;
+  height: 400px;
+  color: white;
+  font-size: 20px;
 }
 
 form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	width: 90%;
-	height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  height: 90%;
 }
 
 form input {
-	transition: all 300ms;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	padding: 12px;
-	width: 100%;
+  transition: all 300ms;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
 }
 
 form textarea {
-	transition: 300ms;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	padding: 12px;
-	width: 100%;
-	height: 30%;
+  transition: 300ms;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+  height: 30%;
 }
 
 form button {
-	transition: all 300ms;
-	cursor: pointer;
-	border: none;
-	border: 1px solid yellow;
-	border-radius: 5px;
-	background-color: rgb(60, 60, 60);
-	width: 80%;
-	height: 50px;
-	color: white;
-	font-weight: 600;
-	font-size: 18px;
+  transition: all 300ms;
+  cursor: pointer;
+  border: none;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color: rgb(60, 60, 60);
+  width: 80%;
+  height: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 form input:focus {
-	outline: 1px solid yellow;
-	border-radius: 10px;
+  outline: 1px solid yellow;
+  border-radius: 10px;
 }
 
 form textarea:focus {
-	outline: 1px solid yellow;
-	border-radius: 10px;
+  outline: 1px solid yellow;
+  border-radius: 10px;
 }
 
 form button:hover {
-	background-color: yellow;
-	color: black;
+  background-color: yellow;
+  color: black;
 }
 
 /* #endregion */
 
 /* #region thanks */
 .thanksContainer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: -5;
-	background-color: rgb(40, 40, 50);
-	width: 100%;
-	height: 100vh;
-	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -5;
+  background-color: rgb(40, 40, 50);
+  width: 100%;
+  height: 100vh;
+  text-align: center;
 }
 
 .backgroundContainer {
-	display: flex;
-	position: relative;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	z-index: 5;
-	border-radius: 50%;
-	width: 500px;
-	height: 500px;
-	text-align: center;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  text-align: center;
 }
 
 .borderContainer {
-	position: absolute;
-	justify-content: center;
-	align-items: center;
-	z-index: 0;
-	animation: rotation 5s infinite;
-	border: 3px dashed yellow;
-	border-radius: 50%;
-	background-color: transparent;
-	width: 550px;
-	height: 550px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  animation: rotation 5s infinite;
+  border: 3px dashed yellow;
+  border-radius: 50%;
+  background-color: transparent;
+  width: 550px;
+  height: 550px;
 }
 
 .thanksTitle {
-	margin: 20px;
-	color: white;
-	font-size: 48px;
+  margin: 20px;
+  color: white;
+  font-size: 48px;
 }
 
 .thanksP {
-	margin: 20px;
-	color: white;
-	font-size: 24px;
+  margin: 20px;
+  color: white;
+  font-size: 24px;
 }
 
 .thanksA {
-	transition: all 300ms;
-	transition: all 300ms;
-	margin: 20px;
-	box-shadow: 0 0 5px yellow;
-	border-radius: 5px;
-	background-color: rgb(100, 100, 100);
-	padding: 20px;
-	color: white;
-	font-size: 18px;
-	text-decoration: none;
+  transition: all 300ms;
+  transition: all 300ms;
+  margin: 20px;
+  box-shadow: 0 0 5px yellow;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 100);
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .thanksA:hover {
-	box-shadow: 0 0 10px yellow;
+  box-shadow: 0 0 10px yellow;
 }
 /* #endregion */
 
 @keyframes rotation {
-	0% {
-		rotate: 360deg;
-	}
+  0% {
+    rotate: 360deg;
+  }
 }
 
 @media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
-	.presentation {
-		flex-direction: column;
-		height: fit-content;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-	.presText {
-		width: 90%;
-	}
+  .presentation {
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .presText {
+    width: 90%;
+  }
 
-	.habs {
-		height: fit-content;
-	}
+  .habs {
+    height: fit-content;
+  }
+
+  .navHeader {
+    width: fit-content;
+  }
+
+  .sobre {
+    padding: 0px;
+  }
+
+  .contactIcon a {
+    width: fit-content;
+  }
 }
 
 @media (max-width: 640px) {
-	.navHeader {
-		width: fit-content;
-	}
-	.projContainer {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+  .navHeader {
+    width: fit-content;
+  }
+
+  .projContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
