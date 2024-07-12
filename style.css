@@ -389,11 +389,12 @@ header .navContact:hover {
 
 .contactContainer {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	background-color: rgb(100, 100, 100);
 	width: 100%;
-	height: 80%;
+	height: 100%;
+	gap: 20px;
 }
 .formContainer {
 	display: flex;
@@ -415,26 +416,9 @@ header .navContact:hover {
 	gap: 40px;
 }
 
-.github img {
-	width: 30px;
-	height: 30px;
-}
-
-.github {
-	display: flex;
-	align-items: center;
-	gap: 20px;
-	text-decoration: none;
-}
-
-.github span {
-	color: white;
-	font-size: 18px;
-}
-
 .whatsapp img {
-	max-width: 30px;
-	max-height: 30px;
+	max-width: 40px;
+	max-height: 40px;
 }
 
 .whatsapp {
@@ -443,9 +427,6 @@ header .navContact:hover {
 	text-align: left;
 	gap: 20px;
 	text-decoration: none;
-}
-
-.whatsapp span {
 	color: rgb(230, 230, 230);
 	font-size: 18px;
 }
@@ -462,6 +443,53 @@ header .navContact:hover {
 	height: 400px;
 	color: white;
 	font-size: 20px;
+}
+
+.email img {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	gap: 20px;
+	text-decoration: none;
+	color: rgb(230, 230, 230);
+	font-size: 18px;
+}
+
+.borda {
+	margin-top: 20px;
+	width: 100%;
+	border: 1px solid rgb(150, 150, 150);
+}
+
+.contactInfoText {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contactInfoText span {
+	margin-right: 10px;
+}
+
+.github img {
+	max-height: 40px;
+	max-width: 40px;
+	gap: 10px;
+}
+
+.whatsapp img {
+	gap: 10px;
+}
+
+.linkedin img {
+	max-width: 40px;
+	max-height: 40px;
 }
 
 form {
@@ -519,6 +547,19 @@ form textarea:focus {
 form button:hover {
 	background-color: yellow;
 	color: black;
+}
+
+/* #endregion */
+
+/* #region footer */
+footer {
+	font-size: 7px;
+	background-color: rgb(60, 60, 60);
+	color: grey;
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	align-items: center;
 }
 
 /* #endregion */
@@ -598,6 +639,18 @@ form button:hover {
 }
 
 @media (max-width: 1024px) {
+	.presText {
+		width: 40%;
+	}
+
+	.presentation {
+		gap: 20px;
+	}
+
+	.projContainer {
+		width: 90%;
+		margin-left: -50px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -633,9 +686,17 @@ form button:hover {
 		width: fit-content;
 	}
 
+	.projects {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.projContainer {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
+		margin-left: 40px;
 	}
 }
