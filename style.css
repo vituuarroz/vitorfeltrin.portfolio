@@ -73,6 +73,7 @@ header .navButton img {
   position: relative;
   border-radius: 0px;
   z-index: -5;
+  width: 40px;
 }
 
 /* #endregion */
@@ -642,8 +643,15 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .presText {
-    width: 40%;
+    width: 90%;
   }
 
   .presentation {
@@ -657,12 +665,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .presentation {
-    flex-direction: column;
-    height: fit-content;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
   .presText {
     width: 90%;
   }
@@ -747,6 +749,13 @@ footer {
 }
 
 @media (max-width: 550px) {
-}
+  header .navHeader {
+    display: none;
+    z-index: -5;
+  }
 
+  header .navButton {
+    z-index: 0;
+  }
+}
 /* #endregion */
