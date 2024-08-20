@@ -702,26 +702,51 @@ footer {
     justify-content: center;
     margin-left: 40px;
   }
-}
 
-@media (max-width: 425px) {
-  .navHeader {
-    z-index: -5;
-    display: none;
-  }
-  .navButton {
-    z-index: 0;
-  }
-}
-
-@media (min-width: 475px) {
-  .navButton {
-    display: none;
+  .presentation img {
+    width: 90%;
   }
 
-  .navHeader {
-    z-index: -5;
-    display: none;
+  .projContainer {
+    margin-left: 0;
+  }
+
+  .projContainer .proj1 {
+    width: 90%;
+  }
+
+  .projContainer .proj2 {
+    width: 90%;
+  }
+
+  .projContainer .proj3 {
+    width: 90%;
+  }
+
+  .sobre {
+    height: fit-content;
+  }
+
+  .sobreText {
+    margin: 20px;
+  }
+
+  .contacts {
+    height: 700px;
+  }
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contactForm {
+    width: 90%;
   }
 }
+
+@media (max-width: 550px) {
+}
+
 /* #endregion */
